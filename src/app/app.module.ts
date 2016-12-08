@@ -7,19 +7,24 @@ import { AppComponent } from './app.component';
 import { TextoComponent } from './texto/texto.component';
 import { CursosComponent } from './cursos/cursos.component';
 
+import { CursosService } from './cursos/cursos.service';
+
+import { dataBindingComponent } from './data-binding/data-binding.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TextoComponent,
-    CursosComponent
+    CursosComponent,
+    dataBindingComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [CursosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

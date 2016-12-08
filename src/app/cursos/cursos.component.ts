@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import {CursosService} from './cursos.service';
+
 @Component({
     selector: 'cursos-lista',
     template: `
@@ -13,10 +15,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursosComponent implements OnInit {
 
-  constructor() { }
 
  nome = 'Danilo';
- cursos = ['math', 'portuguese', 'english', 'java'];
+ cursos;
+
+ constructor(cursosService : CursosService){
+   this.cursos = cursosService.getCursos();
+ }
 
   ngOnInit() {
   }
