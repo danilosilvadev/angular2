@@ -10,6 +10,7 @@ import { CursosComponent } from './cursos/cursos.component';
 import { CursosService } from './cursos/cursos.service';
 
 import { dataBindingComponent } from './data-binding/data-binding.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { dataBindingComponent } from './data-binding/data-binding.component';
     AppComponent,
     TextoComponent,
     CursosComponent,
-    dataBindingComponent
+    dataBindingComponent,
+    TwoWayDataBindingComponent
   ],
   imports: [
     BrowserModule,

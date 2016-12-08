@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'data-binding',
-    templateUrl: 'data-binding.component.html'
+    templateUrl: 'data-binding.component.html',
+    styleUrls: ['data-binding.component.css']
 })
 export class dataBindingComponent implements OnInit {
     constructor() { }
@@ -13,6 +14,11 @@ export class dataBindingComponent implements OnInit {
     getValor(){
         return 1;
     }
+
+    onClick(){
+        alert('Botão Clicado');
+    }
+    
 
     ngOnInit() { }
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { dataBindingComponent } from './data-binding/data-binding.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 @Component({
   selector: 'app-root',
