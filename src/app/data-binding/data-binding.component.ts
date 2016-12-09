@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { InputPropertyComponent } from './input-property.component';
+
 @Component({
     selector: 'data-binding',
     templateUrl: 'data-binding.component.html',

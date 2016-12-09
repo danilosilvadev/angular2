@@ -12,6 +12,8 @@ import { CursosService } from './cursos/cursos.service';
 import { dataBindingComponent } from './data-binding/data-binding.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
+import { InputPropertyComponent } from './data-binding/input-property.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-
     TextoComponent,
     CursosComponent,
     dataBindingComponent,
-    TwoWayDataBindingComponent
+    TwoWayDataBindingComponent,
+    InputPropertyComponent
   ],
   imports: [
     BrowserModule,
