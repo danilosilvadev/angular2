@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 import { InputPropertyComponent } from './input-property.component';
 
+import { OutputPropertyComponent } from './output-property.component';
+
+
 @Component({
     selector: 'data-binding',
     templateUrl: 'data-binding.component.html',
@@ -13,6 +16,8 @@ export class dataBindingComponent implements OnInit {
     url ='https://smocci.com';
     urlImg = 'http://lorempixel.com/400/200/nature';
 
+    valorInicial : number = 11;
+
     getValor(){
         return 1;
     }
@@ -21,6 +26,10 @@ export class dataBindingComponent implements OnInit {
         alert('Botão Clicado');
     }
     
+    onValorMudou(event){
+        console.log(event);
+        alert(event.novoValor);
+    }
 
     ngOnInit() { }
 }

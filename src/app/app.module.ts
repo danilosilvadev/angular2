@@ -14,6 +14,8 @@ import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-
 
 import { InputPropertyComponent } from './data-binding/input-property.component';
 
+import { OutputPropertyComponent } from './data-binding/output-property.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { InputPropertyComponent } from './data-binding/input-property.component'
     CursosComponent,
     dataBindingComponent,
     TwoWayDataBindingComponent,
-    InputPropertyComponent
+    InputPropertyComponent,
+    OutputPropertyComponent
   ],
   imports: [
     BrowserModule,

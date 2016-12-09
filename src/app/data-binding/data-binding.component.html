@@ -1,6 +1,8 @@
 <section class="property-binding">
 
-    <article><div><curso nome="angular 2"></curso></div></article>
+    <article><div><curso nome="angular 2"></curso>
+    <contador [valor]="valorInicial" (mudouValor) = "onValorMudou($event)"></contador>
+    </div></article>
 
 
 <article>
