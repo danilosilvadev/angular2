@@ -16,6 +16,8 @@ import { InputPropertyComponent } from './data-binding/input-property.component'
 
 import { OutputPropertyComponent } from './data-binding/output-property.component';
 
+import { LifeCycleComponent } from './ciclo/life-cycle.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { OutputPropertyComponent } from './data-binding/output-property.componen
     dataBindingComponent,
     TwoWayDataBindingComponent,
     InputPropertyComponent,
-    OutputPropertyComponent
+    OutputPropertyComponent,
+    LifeCycleComponent
   ],
   imports: [
     BrowserModule,
