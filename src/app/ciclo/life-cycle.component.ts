@@ -13,11 +13,11 @@ import {
 } from '@angular/core';
 
 @Component({
-    //moduleId: module.id,
     selector: 'lifecycle',
     template: `
     <p #variavelLocalP >{{valorInicial}}</p>
-    <p>{{ variavelLocalP.textContent }}</p>  `
+    <p>{{ variavelLocalP.textContent }}</p> 
+     `
 })
 export class LifeCycleComponent implements OnChanges, OnInit,
     DoCheck, AfterContentInit, AfterContentChecked,

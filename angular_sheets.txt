@@ -1,0 +1,21 @@
+Angular Bash paths
+
+Basics
+
+ng new name (create a new project)
+ng server --port 4201 (Create a new server)
+ng server (use a server created)
+ng g component name (create a component)
+ng g service name (create service)
+
+pre-processors for css
+
+ng new project-name --style=sass
+ng new project-name --style=less
+ng new project-name --style=stylus
+
+pre-processors for css update
+
+ng set defaults.styleExt scss
+ng set defaults.styleExt less
+ng set defaults.styleExt styl
