@@ -7,6 +7,9 @@ ng server --port 4201 (Create a new server)
 ng server (use a server created)
 ng g component name (create a component)
 ng g service name (create service)
+ng lint (Scanner for errors)
+ng test(run all build files .spec.ts)
+ng e2e(run all builds)
 
 pre-processors for css
 
@@ -19,3 +22,6 @@ pre-processors for css update
 ng set defaults.styleExt scss
 ng set defaults.styleExt less
 ng set defaults.styleExt styl
+
+
+
